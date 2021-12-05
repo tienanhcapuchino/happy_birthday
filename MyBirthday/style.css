@@ -233,8 +233,6 @@ span {
 }
 
 .avatar__img {
-    margin-top: 30px;
-    margin-bottom: 20px;
     width: 200px;
     height: 250px;
     border-radius: 50%;
@@ -245,7 +243,9 @@ span {
     -o-animation: balloon1 6s ease-in-out infinite;
     animation: balloon1 6s ease-in-out infinite;
 }
-
+.npe{
+    text-align: center;
+}
 .avatar__title {
     color: rgba(234, 15, 150, 0.9);
     cursor: pointer;
@@ -272,6 +272,29 @@ span {
     left: 50%;
     margin-left: -27px;
 }
+#nutbam{
+    background-color: #374566;
+    color: white;
+    border-radius: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+}
+#anhchinhhap{
+    display: none;
+}
+.anhthoima{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
+.bonusbutton{
+    margin-left: 45%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*BALLOON 1 4*/
 @-webkit-keyframes balloon1 {
     0%,
@@ -436,23 +459,6 @@ h1 {
     font-weight: 200;
     word-spacing: 5px;
 }
-#nutbam{
-    background-color: #374566;
-    color: white;
-    font-weight: bold;
-    border-radius: 30%;
-    float: left;
-}
-#anhchinhhap{
-    display: none;
-}
-.anhthoima{
-    margin-left: 300px;
-    margin-bottom: 30px;
-    width: 200px;
-    height: 200px;
-}
-
 /* Hiệu ứng pháo hoa*/
 .pyro > .before, .pyro > .after {
     position: absolute;
