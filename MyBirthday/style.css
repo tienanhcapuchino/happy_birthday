@@ -233,8 +233,10 @@ span {
 }
 
 .avatar__img {
+    margin-top: 30px;
+    margin-bottom: 20px;
     width: 200px;
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid rgba(234, 15, 150, 0.9);
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
@@ -245,13 +247,15 @@ span {
 }
 
 .avatar__title {
+    color: rgba(234, 15, 150, 0.9);
     cursor: pointer;
-    margin-top: -100px;
+    margin-top: -115px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
 }
+
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
     position: absolute;
@@ -432,6 +436,22 @@ h1 {
     font-weight: 200;
     word-spacing: 5px;
 }
+#nutbam{
+    background-color: #374566;
+    color: white;
+    font-weight: bold;
+    border-radius: 30%;
+    float: left;
+}
+#anhchinhhap{
+    display: none;
+}
+.anhthoima{
+    margin-left: 300px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
 
 /* Hiệu ứng pháo hoa*/
 .pyro > .before, .pyro > .after {
@@ -448,6 +468,7 @@ h1 {
     -ms-animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
     animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards; }
   
+
   .pyro > .after {
     -moz-animation-delay: 1.25s, 1.25s, 1.25s;
     -webkit-animation-delay: 1.25s, 1.25s, 1.25s;

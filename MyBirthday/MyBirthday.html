@@ -64,18 +64,21 @@
                 
                 <div class="avatar">
                     <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
-                    <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                    <img src="./logo.jpg" alt="Ảnh" class="avatar__img" onclick="showMessage()" />
                     <!-- 4. Tên của người đó -->
                     <h1 onclick="showMessage()" class="avatar__title">Hồng Chinh</h1>
                     <p style="size: 20px; color: aliceblue">Bấm vào ảnh để thấy điều bất ngờ nha!</p>
-                </div>
-                
+                    <input id="nutbam" onclick="showbutton()" type="button" value="Click vô lấy bonus nè" name="Avatar">                  
+                </div>            
                 <!-- 5. Phần nhạc -->
                 <audio id="player" autoplay loop>
                     <source src="./music.mp3" type="audio/mp3">
                 </audio>
             </div>
         </div>
+        <div id ="anhchinhhap">
+            <img src="avtch.png" class="anhthoima" alt="Ảnh Chinh Hấp">
+        </div>  
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
@@ -91,6 +94,7 @@
                 });
             }
         </script>
+        <script src="birth.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </body>
 </html>
