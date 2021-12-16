@@ -279,6 +279,7 @@ span {
     float: left;
     font-family: 'Lobster', cursive;
     font-size: 15px;
+    margin-top: -50px;
 }
 #anhchinhhap{
     display: none;
@@ -294,7 +295,37 @@ span {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+.video_01 p{
+    background-color: #374566;
+    color: white;
+    border-radius: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.video_01 video{
+    padding-left: 50px;
+    display: none;
+}
+.video_02 p{
+    background-color: #374566;
+    color: white;
+    border-radius: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.video_02 video{
+    padding-top: 50px;
+    padding-left: 50px;
+    display: none;
+}
 /*BALLOON 1 4*/
 @-webkit-keyframes balloon1 {
     0%,
