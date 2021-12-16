@@ -295,7 +295,7 @@ span {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.video_01 p{
+.video_01 input{
     background-color: #374566;
     color: white;
     border-radius: 60%;
@@ -310,7 +310,11 @@ span {
     padding-left: 50px;
     display: none;
 }
-.video_02 p{
+video{
+    width: 400px;
+    height: 400px;
+}
+.video_02 input{
     background-color: #374566;
     color: white;
     border-radius: 60%;
