@@ -23,12 +23,12 @@
                 window.ontouchstart = function () {};
             }
         </script>
-        <script
+        <!-- <script
             type="text/javascript"
-            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
-        ></script>
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script> -->
         <meta content="clickberry-extension-here" />
     </head>
+
 
     <body>
         <link
@@ -43,6 +43,7 @@
             <div class="after">
 
             </div>
+            
             <div class="container">
                 <!-- 2. Dòng chữ Happy Birthday
                 Nếu bạn muốn thêm chữ vào thì phải thay đổi css tương ứng cho nó -->
@@ -73,13 +74,15 @@
                     <source src="./music.mp3" type="audio/mp3">
                 </audio>
             </div>
+
         </div>
         <div class="npe">
             <h1 class="avatar__title">Hồng Chinh</h1>
         </div>
-        <div class="bonusbutton">
-            <input id="nutbam" onclick="showbutton()" type="button" value="Click vô có ảnh xịn nè" name="Avatar">                  
-        </div>
+        <!-- <div class="bonusbutton">
+            <input type="button" id="nutbam" onclick="showANH()" value="Click vô có ảnh xịn nè">
+            <img id="anhchinhhap" src="./avtch.png" alt="Ảnh Chinh Hấp"/>
+        </div>   -->
         <div class="video_01">
             <input type="button" id="qua1" onclick="showQua()" value="Bấm vào đây dể lấy quà tiếp nào!">
             <video id="v1" controls src="/Video/video2.mp4"></video>
@@ -88,12 +91,12 @@
             <input id="qua2" type="button" onclick="showQua2()" value="Ơ vẫn còn nè, bấm tiếp đi!">
             <video id="v2" controls src="/Video/video1.mp4"></video>
         </div>
+        <div class="anhxin">
+            <input type="button" id="imagedep" onclick="showANH()" value="Vẫn còn ảnh xịn hơn nè">
+            <img id="anhchinhhap" src="./avtch.png" alt="Ảnh Chinh Hấp"/>
+        </div>
         <!-- 4. Tên của người đó -->
         
-        <div id ="anhchinhhap">
-            <img src="avtch.png" class="anhthoima" alt="Ảnh Chinh Hấp">
-        </div>  
-
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
@@ -102,7 +105,7 @@
                 // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
                 swal({
                     title: "HAPPY BIRTHDAY 20TH!", // Tiêu đề của popup
-                    text: "Hí, sập pờ rai, chúc mình sinh nhật 20 tuổi của Chinh Hấp ý nhầm Chinh bánh bao 😊😊😊. Vậy là bạn đã bằng tuổi tui rồi đó! Ay dà, tuổi mới chúc bạn tuổi mới luôn xinh đẹp nè, luôn thành công với công ty của riêng mình nè. Và đặc biệt là chúc bạn luôn bình tĩnh tự tin, lạc quan dể vượt qua hết những khó khăn trong cuộc sống, nào khó quá thì nói tôi, không giúp được thì tôi tấu hài cho 😂😂. Sinh nhật vui vẻ nhé!!!!", // Nội dung lời nhắn
+                    text: "Hí, sập pờ rai, chúc mình sinh nhật 20 tuổi của Chinh Hấp ý nhầm Chinh bánh bao 😊😊😊. Vậy là bạn đã bằng tuổi tui rồi đó! Ay dà, tuổi mới chúc bạn luôn xinh đẹp nè, luôn thành công với công ty của riêng mình nè. Và đặc biệt là chúc bạn luôn bình tĩnh tự tin, lạc quan dể vượt qua hết những khó khăn trong cuộc sống, nào khó quá thì nói tôi, không giúp được thì tôi tấu hài cho 😂😂. Sinh nhật vui vẻ nhé!!!!", // Nội dung lời nhắn
                     button: {
                         text: "❤️️",
                     },

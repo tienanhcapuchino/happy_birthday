@@ -282,19 +282,34 @@ span {
     margin-top: -50px;
 }
 #anhchinhhap{
-    display: none;
-}
-.anhthoima{
-    margin-left: 100px;
+    margin-left: 300px;
     margin-bottom: 30px;
     width: 200px;
     height: 200px;
 }
+.anhxin input{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    background-color: #374566;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-top: -50px;
+}
+.anhxin img{
+    display: none;
+}
+/* .bonusbutton img{
+    display: none;
+}
+
 .bonusbutton{
     margin-left: 45%;
     margin-top: 5px;
     margin-bottom: 5px;
-}
+} */
 .video_01 input{
     background-color: #374566;
     color: white;
