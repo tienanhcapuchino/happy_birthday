@@ -230,6 +230,7 @@ span {
     position: absolute;
     top: 50%;
     left: calc(50% - 100px);
+    margin-bottom: 20px;
 }
 
 .avatar__img {
@@ -283,7 +284,7 @@ span {
 }
 #anhchinhhap{
     margin-left: 300px;
-    margin-bottom: 30px;
+    margin-top: -360px;
     width: 200px;
     height: 200px;
 }
@@ -301,45 +302,29 @@ span {
 .anhxin img{
     display: none;
 }
-/* .bonusbutton img{
-    display: none;
+#video_01{
+    margin-top: 40px;
+}
+#video_02{
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.videohay {
+    background-color: #374566;
+    color: white;
+    border-radius: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.videohay a{
+    color: white;
+    background-color: #374566;
 }
 
-.bonusbutton{
-    margin-left: 45%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-} */
-.video_01 {
-    background-color: #374566;
-    color: white;
-    border-radius: 60%;
-    float: left;
-    font-family: 'Lobster', cursive;
-    font-size: 15px;
-    margin-left: 45%;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.video_01 a{
-    color: white;
-    background-color: #374566;
-}
-.video_02 a{
-    color: white;
-    background-color: #374566;
-}
-.video_02 {
-    background-color: #374566;
-    color: white;
-    border-radius: 60%;
-    float: left;
-    font-family: 'Lobster', cursive;
-    font-size: 15px;
-    margin-left: 45%;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
 
 /*BALLOON 1 4*/
 @-webkit-keyframes balloon1 {
