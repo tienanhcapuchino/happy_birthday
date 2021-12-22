@@ -11,22 +11,22 @@ function showANH() {
     }
 }
 
-function showQua() {
-    if (k % 2 == 0) {
-        document.getElementById('v1').style.display = 'block';
-        k++;
-    } else {
-        document.getElementById('v1').style.display = 'none';
-        k++;
-    }
-}
+// function showQua() {
+//     if (k % 2 == 0) {
+//         document.getElementById('v1').style.display = 'block';
+//         k++;
+//     } else {
+//         document.getElementById('v1').style.display = 'none';
+//         k++;
+//     }
+// }
 
-function showQua2() {
-    if (k % 2 == 0) {
-        document.getElementById('v2').style.display = 'block';
-        k++;
-    } else {
-        document.getElementById('v2').style.display = 'none';
-        k++;
-    }
-}
+// function showQua2() {
+//     if (k % 2 == 0) {
+//         document.getElementById('v2').style.display = 'block';
+//         k++;
+//     } else {
+//         document.getElementById('v2').style.display = 'none';
+//         k++;
+//     }
+// }
